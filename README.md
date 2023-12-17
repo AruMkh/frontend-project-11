@@ -1,6 +1,6 @@
 ### Tests status:
 [![Actions Status](https://github.com/AruMkh/frontend-project-11/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/AruMkh/frontend-project-11/actions)
-[![Node CI](https://github.com/AruMkh/frontend-project-11/actions/workflows/nodejs.yml/badge.svg)](https://github.com/AruMkh/frontend-project-11/actions/workflows/nodejs.yml)
+[![Node CI](https://github.com/AruMkh/frontend-project-11/actions/workflows/actions.yml/badge.svg)](https://github.com/AruMkh/frontend-project-11/actions/workflows/actions.yml)
 <a href="https://codeclimate.com/github/AruMkh/frontend-project-11/maintainability"><img src="https://api.codeclimate.com/v1/badges/36808bb3379ea50460a6/maintainability" /></a>
 
 ### Description:
