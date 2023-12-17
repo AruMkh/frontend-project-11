@@ -1,0 +1,45 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "Third Hexlet project",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AruMkh/frontend-project-11"
+  },
+  "author": "AruMkh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AruMkh/frontend-project-11/issues"
+  },
+  "homepage": "https://github.com/AruMkh/frontend-project-11#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "css-loader": "^6.7.3",
+    "eslint": "^8.35.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "html-webpack-plugin": "^5.5.0",
+    "postcss": "^8.4.21",
+    "postcss-loader": "^7.0.2",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1",
+    "npm-check-updates": "^16.6.2",
+    "sass": "^1.58.3",
+    "sass-loader": "^13.2.0"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "bootstrap": "^5.2.3",
+    "i18next": "^22.4.11",
+    "lodash": "^4.17.21",
+    "on-change": "^4.0.2",
+    "yup": "^1.0.2"
+  }
+}
