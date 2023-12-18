@@ -20,7 +20,7 @@ Node v18 or higher
 ### Demonstration:
 <a href ="https://frontend-project-11-fmrv.vercel.app/">Vercel link</a>
 
-![image](https://github.com/AruMkh/frontend-project-11/assets/139110457/25c94b33-fe90-4775-afa7-791e03ee78d6)
+![image](https://github.com/AruMkh/frontend-project-11/assets/139110457/522df48e-03c6-45e6-b3f0-3b13ec03f093)
 
 
 ### Tools
