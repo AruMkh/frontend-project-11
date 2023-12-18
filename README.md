@@ -18,7 +18,10 @@ Node v18 or higher
     $ To run on localhost: make develop
 
 ### Demonstration:
-<a href ="https://frontend-project-11-delta-tan.vercel.app/">Vercel link</a>
+<a href ="https://frontend-project-11-fmrv.vercel.app/">Vercel link</a>
+
+![image](https://github.com/AruMkh/frontend-project-11/assets/139110457/25c94b33-fe90-4775-afa7-791e03ee78d6)
+
 
 ### Tools
 
