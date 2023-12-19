@@ -35,7 +35,7 @@ export default () => {
         feeds: [],
         UIState: {
           shownPostId: null,
-          shownPostsIds: new Set()
+          shownPostsIds: new Set(),
         },
       };
       const state = getState(initialState, i18n, elements);
