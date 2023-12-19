@@ -33,8 +33,10 @@ export default () => {
         error: null,
         posts: [],
         feeds: [],
-        shownPostId: null,
-        shownPostsIds: new Set(),
+        UIState: {
+          shownPostId: null,
+          shownPostsIds: new Set(),
+        },
       };
       const state = getState(initialState, i18n, elements);
       yup.setLocale(locale);
@@ -67,8 +69,8 @@ export default () => {
         const { target } = e;
         const { dataset: { id } } = target;
         if (id) {
-          state.shownPostId = id;
-          state.shownPostsIds.add(id);
+          state.UIState.shownPostId = id;
+          state.UIState.shownPostsIds.add(id);
         }
       });
       updateRSS(state);
