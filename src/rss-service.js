@@ -2,7 +2,7 @@ import _ from 'lodash';
 import axios from 'axios';
 import parser from './parser.js';
 
-const timeout = 5000;
+const timeout = 10000;
 
 const addProxy = (url) => {
   const urlWithProxy = new URL('/get', 'https://allorigins.hexlet.app');
