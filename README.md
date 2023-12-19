@@ -42,7 +42,7 @@ Node v18 or higher
 [i18next-url]: https://www.i18next.com
 
 [onChange-badge]: https://img.shields.io/badge/onChange-gray?style=flat&logoColor=white
-[onChange-url]: https://github.com/jquense/yup
+[onChange-url]: https://github.com/sindresorhus/on-change
 
 [Rss-badge]: https://img.shields.io/badge/rss-F88900?style=for-the-badge&logo=rss&logoColor=white
 [Rss-url]: https://en.wikipedia.org/wiki/RSS
@@ -51,4 +51,4 @@ Node v18 or higher
 [Webpack-url]: https://webpack.js.org
 
 [yup-badge]: https://img.shields.io/badge/yup-gray?style=flat&logoColor=white
-[yup-url]: https://github.com/sindresorhus/on-change
+[yup-url]: https://github.com/jquense/yup
