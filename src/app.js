@@ -1,17 +1,13 @@
 import * as yup from 'yup';
 
 import i18next from 'i18next';
-import _ from 'lodash';
-import axios from 'axios';
 import getState from './render.js';
-import parser from './parser.js';
 import loadRSS from './rss-service.js';
 import updateRSS from './rss-service.js';
 
 import resources from './locales/index.js';
 import locale from './locales/locale.js';
 
-const timeout = 10000;
 const lng = 'ru';
 
 export default () => {
