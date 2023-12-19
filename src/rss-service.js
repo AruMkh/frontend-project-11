@@ -2,7 +2,7 @@ import _ from 'lodash';
 import axios from 'axios';
 import parser from './parser.js';
 
-const timeout = 10000;
+const timeout = 5000;
 
 const addProxy = (url) => {
   const urlWithProxy = new URL('/get', 'https://allorigins.hexlet.app');
@@ -21,7 +21,7 @@ export const updateRSS = (state) => {
     })
     .catch((err) => console.log(err)));
   Promise.all(requests)
-    .then(() => {
+    .finally(() => {
       setTimeout(updateRSS, timeout, state);
     });
 };
