@@ -1,6 +1,6 @@
 import _ from 'lodash';
-import parser from './parser.js';
 import axios from 'axios';
+import parser from './parser.js';
 
 const timeout = 10000;
 
