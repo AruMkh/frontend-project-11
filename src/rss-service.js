@@ -11,7 +11,7 @@ const addProxy = (url) => {
   return urlWithProxy.toString();
 };
 
-function updateRSS = (state) => {
+export const updateRSS = (state) => {
   const requests = state.feeds.map((feed) => axios.get(addProxy(feed.link))
     .then((response) => {
       const [, posts] = parser(response.data.contents);
@@ -34,7 +34,7 @@ const defineError = (err) => {
   }
   return 'unknowError';
 };
-function loadRSS = (url, state) => {
+export const loadRSS = (url, state) => {
   axios.get(addProxy(url))
     .then((responce) => {
       const [feed, posts] = parser(responce.data.contents);
