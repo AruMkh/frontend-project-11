@@ -21,7 +21,7 @@ export const updateRSS = (state) => {
     })
     .catch((err) => console.log(err)));
   Promise.all(requests)
-    .then(() => {
+    .finally(() => {
       setTimeout(updateRSS, timeout, state);
     });
 };
