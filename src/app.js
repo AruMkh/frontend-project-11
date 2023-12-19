@@ -2,8 +2,7 @@ import * as yup from 'yup';
 
 import i18next from 'i18next';
 import getState from './render.js';
-import loadRSS from './rss-service.js';
-import updateRSS from './rss-service.js';
+import { loadRSS, updateRSS } from './rss-service.js';
 
 import resources from './locales/index.js';
 import locale from './locales/locale.js';
