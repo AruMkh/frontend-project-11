@@ -133,7 +133,7 @@ export default (initialState, i18n, elements) => {
       case 'posts':
         renderPosts(state.posts, state.UIState.shownPostsIds, i18n, elements);
         break;
-      case 'UIStatr.shownPostId':
+      case 'UIState.shownPostId':
         renderModalWindow(state.UIState.shownPostId, state.posts, elements);
         break;
       case 'UIState.shownPostsIds':
