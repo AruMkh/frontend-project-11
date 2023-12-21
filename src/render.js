@@ -133,10 +133,10 @@ export default (initialState, i18n, elements) => {
       case 'posts':
         renderPosts(state.posts, state.UIState.shownPostsIds, i18n, elements);
         break;
-      case 'shownPostId':
+      case 'UIStatr.shownPostId':
         renderModalWindow(state.UIState.shownPostId, state.posts, elements);
         break;
-      case 'shownPostsIds':
+      case 'UIState.shownPostsIds':
         break;
       default:
         throw new Error('Unknown state ', path);
