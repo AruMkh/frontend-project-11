@@ -47,6 +47,7 @@ export default () => {
           .notOneOf(links);
         return schema
           .validate(url)
+          .then(() => {})
           .catch((error) => error.message);
       };
       elements.form.addEventListener('submit', (e) => {
